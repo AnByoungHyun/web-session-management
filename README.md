@@ -28,7 +28,7 @@
 ## 실행 방법
 1. 저장소를 클론합니다.
   - git clone https://github.com/AnByoungHyun/web-session-management.git
-2. 소스를 /var/www/html 로 이동 합니다.
+2. 소스를 /var/www/html 로 이동 합니다.
   - sudo mv ./web-session-management/* /var/www/html/
 3. 웹 브라우저를 통해 애플리케이션에 접속하여 로드밸런서와 세션 저장소가 어떻게 작동하는지 확인합니다.
 
