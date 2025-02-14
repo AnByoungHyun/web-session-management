@@ -17,7 +17,7 @@
 
 ## 저장소 구성
 - index.html
-  - 초기 페이지
+  - 초기 페이지 입니다. 세션 예제 버튼을 통해 세션을 확인해 볼 수 있습니다.
 - session-create.php
   - 세션을 생성하는 PHP 페이지
 - session-check.php
@@ -27,7 +27,9 @@
 
 ## 실행 방법
 1. 저장소를 클론합니다.
-2. docker-compose up -d 명령어를 실행하여 개발 환경을 구축합니다.
+  - git clone https://github.com/AnByoungHyun/web-session-management.git
+2. 소스를 /var/www/html 로 이동 합니다.
+  - sudo mv ./web-session-management/* /var/www/html/
 3. 웹 브라우저를 통해 애플리케이션에 접속하여 로드밸런서와 세션 저장소가 어떻게 작동하는지 확인합니다.
 
 ## 추가 정보
