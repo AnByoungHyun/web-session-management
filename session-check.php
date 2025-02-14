@@ -84,7 +84,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>WAS SERVER 1 Hello</h1>
+        <h1>WAS SERVER: <?php echo gethostname(); ?></h1>
 
         <div class="session-info">
             <?php
@@ -100,7 +100,7 @@
                         echo "</div>";
                     } else {
                         echo "<div class='input-form'>";
-                        echo "<form action='session-basic.php' method='post'>";
+                        echo "<form action='session-create.php' method='post'>";
                         echo "<div class='form-group'>";
                         echo "<label for='username'>사용자 이름:</label>";
                         echo "<input type='text' id='username' name='username' required>";
